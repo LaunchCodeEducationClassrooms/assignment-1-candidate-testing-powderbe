@@ -39,7 +39,7 @@ function gradeQuiz(candidateAnswers) {
       correct = correct + 1;
     } 
        
- // let grade;
+ let grade = correct/questions.length;
   }
 
   console.log(">>>", "Overall Grade:", (correct/questions.length) * 100 + "%", "(" + correct, "of", questions.length, "responses correct" + ")", "<<<");
@@ -48,7 +48,7 @@ function gradeQuiz(candidateAnswers) {
     console.log(">>>","Status:", "PASSED", "<<<");
     }else console.log(">>>","Status:", "FAILED", "<<<");
     
- // return grade;
+  return grade;
 }
 
 

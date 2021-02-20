@@ -38,9 +38,10 @@ function gradeQuiz(candidateAnswers) {
     if (candidateAnswers[i].toLowerCase() == correctAnswers[i].toLowerCase()) {
       correct = correct + 1;
     } 
-       
+  }   
+    
  let grade = correct/questions.length;
-  }
+  
 
   console.log(">>>", "Overall Grade:", (correct/questions.length) * 100 + "%", "(" + correct, "of", questions.length, "responses correct" + ")", "<<<");
 

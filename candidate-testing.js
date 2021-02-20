@@ -46,7 +46,7 @@ function gradeQuiz(candidateAnswers) {
 
   if (correct/questions.length >= .8){
     console.log(">>>","Status:", "PASSED", "<<<");
-    }else console.log("Status:", "FAILED");
+    }else console.log(">>>","Status:", "FAILED", "<<<");
     
  // return grade;
 }
